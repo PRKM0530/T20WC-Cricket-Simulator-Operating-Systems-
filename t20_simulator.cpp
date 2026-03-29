@@ -402,7 +402,6 @@ void rr_context_switch(int dOver) {
     pthread_mutex_unlock(&over_mtx);
 
     ostringstream ss;
-    ss<<CYN<<"\n This over-> runs gained : "<<cur.ctx_runs<<", wickets taken : "<<cur.ctx_wkts ;
     tlog(ss.str());
 }
 
